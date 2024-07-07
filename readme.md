@@ -1,4 +1,4 @@
-# Sigma Web Development Course Topics
+# Web Development Topics
 
 ## Introduction & Basics
 1. Installing VS Code & How Websites Work
@@ -87,3 +87,7 @@
 7. Dynamic Website Builder
 8. Clear the Clutter Exercise
 9. Dummy Data Generator
+
+## Credits
+1. Udemy
+2. CodeWithHarry
