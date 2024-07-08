@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Comprehensive HTML Form</title>
+</head>
+
+<body>
+    <h1>Comprehensive HTML Form</h1>
+    <form action="/submit_form" method="post">
+        <!-- Text input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+        <br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+        <br><br>
+
+        <!-- Reset button -->
+        <input type="reset" value="Reset">
+        <br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label>
+        <br><br>
+
+        <!-- Button -->
+        <button type="button" onclick="alert('Button clicked!')">Click Me!</button>
+        <br><br>
+
+        <!-- Color input -->
+        <label for="favcolor">Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+        <br><br>
+
+        <!-- Date input -->
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br><br>
+
+        <!-- Datetime-local input -->
+        <label for="meeting">Meeting Time:</label>
+        <input type="datetime-local" id="meeting" name="meeting">
+        <br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+
+        <!-- File input -->
+        <label for="fileupload">Upload a file:</label>
+        <input type="file" id="fileupload" name="fileupload">
+        <br><br>
+
+        <!-- Hidden input -->
+        <input type="hidden" id="hiddenField" name="hiddenField" value="hiddenValue">
+
+        <!-- Image submit button -->
+        <input type="image" src="submit_button_image.png" alt="Submit" width="48" height="48">
+        <br><br>
+
+        <!-- Month input -->
+        <label for="startmonth">Start Month:</label>
+        <input type="month" id="startmonth" name="startmonth">
+        <br><br>
+
+        <!-- Number input -->
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10">
+        <br><br>
+
+        <!-- Range input -->
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100">
+        <br><br>
+
+        <!-- Search input -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search" placeholder="Search...">
+        <br><br>
+
+        <!-- Telephone input -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+        <br><br>
+
+        <!-- Time input -->
+        <label for="appt">Appointment Time:</label>
+        <input type="time" id="appt" name="appt">
+        <br><br>
+
+        <!-- URL input -->
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" placeholder="https://example.com">
+        <br><br>
+
+        <!-- Week input -->
+        <label for="week">Select Week:</label>
+        <input type="week" id="week" name="week">
+        <br><br>
+
+        <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea>
+        <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

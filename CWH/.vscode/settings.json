@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onFocusChange",
+    "livePreview.customExternalBrowser": "Chrome",
+    "code-runner.saveFileBeforeRun": true,
+    "livePreview.openPreviewTarget": "External Browser"
+}
