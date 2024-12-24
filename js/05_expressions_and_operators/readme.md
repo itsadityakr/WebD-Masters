@@ -115,7 +115,7 @@ Used to perform logical operations and return boolean results.
 | Operator | Description                     | Example               | Result  |
 |----------|---------------------------------|-----------------------|---------|
 | `&&`     | Logical AND                     | `true && false`       | `false` |
-| `II`     | Logical OR                      | `true II false`       | `true`  |
+| `ll`     | Logical OR                      | `true ll false`       | `true`  |
 | `!`      | Logical NOT                     | `!true`               | `false` |
 
 **Example:**
