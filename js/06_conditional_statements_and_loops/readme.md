@@ -1,8 +1,4 @@
-Here's a comprehensive set of notes covering **conditional statements**, **loops**, **break**, **continue**, and additional statements with **examples** and **outputs** explained:
-
----
-
-# **JavaScript Control Flow Notes**
+### **JavaScript Control Flow Notes**
 
 ### **1. Conditional Statements**
 
