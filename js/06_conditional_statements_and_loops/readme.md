@@ -321,5 +321,3 @@ for (let i = 1; i <= 5; i++) {
 ```
 
 ---
-
-These notes cover all **control flow statements**, their syntax, examples, and outputs to provide clarity and comprehensiveness.
