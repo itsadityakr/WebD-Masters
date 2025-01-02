@@ -1,6 +1,5 @@
 ### **JavaScript and ECMAScript**
 
-
 ### What is ECMAScript (ES)?
 - ECMAScript is the **standard** upon which JavaScript is based.
 - Created by **Ecma International** to standardize JavaScript.
@@ -240,4 +239,3 @@ The most significant update in JavaScript history, introducing features like:
    ```
 
 ---
-
