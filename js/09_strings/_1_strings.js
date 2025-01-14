@@ -119,7 +119,7 @@ console.log(replaceAllExample.replaceAll("JavaScript", "Python"));
 // **8. Other Useful String Methods**
 // Here are some additional methods for working with strings:
 
-// a) `toUpperCase()` and `toLowerCase()`
+// a) `toUpperCase()` and `toLowerCase()`a
 // Converts a string to uppercase or lowercase.
 let caseText = "Hello, JavaScript!";
 console.log(caseText.toUpperCase()); // Output: "HELLO, JAVASCRIPT!"
@@ -183,3 +183,27 @@ const isPangram = (str) => {
   return alphabet.size === 0;
 };
 console.log(isPangram("The quick brown fox jumps over the lazy dog")); // Output: true
+
+// matchAll()
+
+// let text = "I love JavaScript. JavaScript is fun!";
+// let regex = /JavaScript/gi;
+
+// // matchAll returns an iterator, so we use [...spread] to convert it into an array.
+// let matches = [...text.matchAll(regex)];
+
+// console.log(matches);
+
+// // Output: Array of Match Objects
+// // [
+// //   {0: 'JavaScript', index: 7, input: 'I love JavaScript. JavaScript is fun!', groups: undefined},
+// //   {0: 'JavaScript', index: 20, input: 'I love JavaScript. JavaScript is fun!', groups: undefined}
+// // ]
+
+// // Access match details
+// matches.forEach(match => {
+//   console.log(`Found '${match[0]}' at index ${match.index}`);
+// });
+// // Output:
+// // Found 'JavaScript' at index 7
+// // Found 'JavaScript' at index 20
